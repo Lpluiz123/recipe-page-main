@@ -41,8 +41,8 @@ header img {
 
 .container_info {
   color: #5f574e;
-  font-size: 13px;
-  margin: 16px 0;
+  font-size: 19px;
+  margin: 16px 0 25px;
   font-weight: 400;
   line-height: 30px;
 }
@@ -57,7 +57,7 @@ header img {
 
 .preparation-time h3 {
   color: #7b284f;
-  font-size: 16px;
+  font-size: 18.4px;
   margin: 20px 0;
 }
 
@@ -68,7 +68,7 @@ header img {
 
 .preparation-time li {
   color: #5f5746;
-  font-size: 13px;
+  font-size: 13.6px;
   padding: 10px 0 0 20px;
 }
 
@@ -91,11 +91,12 @@ header img {
 .ingredients ul {
   margin: 16px 0;
   padding: 0 0 0 40px;
+  border-bottom: 1px solid #E4DED8;
 }
 
 .ingredients li {
   color: #5f5746;
-  font-size: 13px;
+  font-size: 16px;
   padding: 10px 0 0 20px;
   list-style-type: square;
 }
@@ -110,16 +111,18 @@ header img {
   font-family: "Young Serif", serif;
   font-weight: 400;
   margin: 23px 0;
+  
 }
 
-.instructions ul {
+.instructions ol {
   margin: 16px 0;
   padding: 0 0 0 40px;
+  border-bottom: 1px solid #E4DED8;
 }
 
 .instructions li {
   color: #5f5746;
-  font-size: 13px;
+  font-size: 16px;
   padding: 10px 0 0 20px;
   margin: 0 30px;
   line-height: 26px;
@@ -144,7 +147,8 @@ header img {
 
 .nutrition-information {
   color: #5f5746;
-  font-size: 13px;
+  font-size: 16px;
+  margin-bottom: 15px;
 }
 
 .nutrition-table {
@@ -195,6 +199,14 @@ header img {
   font-size: 14px;
 }
 
+ul .li-bottom {
+  margin-bottom: 25px;
+}
+
+ol .li-bottom {
+  margin-bottom: 25px;
+}
+
 
 @media (max-width: 600px) {
 
@@ -229,14 +241,15 @@ header img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  }
+    padding: 0 20px;
+}
 
-  .container h1 {
-    font-size: 32px;
-    margin: 0.67em 45px;
-    font-family: "Young Serif", serif;
-    font-weight: bold;
-    color: #302d2c;
+.container h1 {
+  font-size: 28px;
+  margin: 0.67em 23px;
+  font-family: "Young Serif", serif;
+  font-weight: bold;
+  color: #302d2c;
 }
 
 .container_info {
@@ -249,8 +262,8 @@ header img {
 
 .preparation-time {
   background-color: #fff5fa;
-  width: 70%;
-  height: 194px;
+  width: 84%;
+  height: 210px;
   border-radius: 15px;
   padding: 20px;
 }
@@ -259,12 +272,24 @@ header img {
   margin-left: 50px;
 }
 
+.ingredients ul {
+  margin: 16px 0;
+  padding: 0 0 0 30px;
+  border-bottom: 1px solid #E4DED8;
+}
+
 .ingredients li {
   font-size: 14px;
 }
 
 .instructions {
   margin-left: 50px;
+}
+
+.instructions ol {
+  margin: 16px 0;
+  padding: 0 0 0 15px;
+  border-bottom: 1px solid #E4DED8;
 }
 
 .nutrition {
@@ -276,8 +301,10 @@ header img {
   font-size: 17px;
 }
 
+
 .nutrition-table {
-  width: 40px;
+  width: 270px;
+  padding-right: 20px;
 }
 
 .nutrition-table {
