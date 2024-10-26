@@ -13,7 +13,7 @@ body {
   width: 60%;
   margin: 10rem auto;
   border-radius: 3rem;
-  padding: 2rem;
+  padding: 2.5rem;
   background-color: #fff;
   display: flex;
   justify-content: center;
@@ -151,52 +151,31 @@ header img {
   margin-bottom: 15px;
 }
 
-.nutrition-table {
-  display: flex;
-  flex-direction: column;
+
+table {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 20px;
+  border-collapse: collapse;
 }
 
-.table-border {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  border-bottom: 1px solid #E4DED8;
-  margin: 0 0 20px;
-  padding: 20px 200px 20px 15px;
-  font-size: 11px;
-}
-
-.table-border p {
+table .key {
   color: #5F574E;
-  font-weight: 600;
-  font-size: 14px;
+  font-size: 15.6px;
+  padding: 10px;
+  padding-left: 30px;
 }
 
-.table-border span {
-  font-weight: bold;
+table .value {
   color: #854632;
-  font-size: 14px;
-}
-
-.table-border-none {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 0 0 20px;
-  padding: 20px 200px 20px 15px;
-  font-size: 11px;
-}
-
-.table-border-none p {
-  color: #5F574E;
-  font-weight: 600;
-  font-size: 14px;
-}
-
-.table-border-none span {
   font-weight: bold;
-  color: #854632;
-  font-size: 14px;
+  font-size: 15.6px;
+  padding: 10px;
+  padding-right: 43px;
+}
+
+.nutrition-table .border-bottom{
+  border-bottom: 1px solid #F2EFEC; ;
 }
 
 ul .li-bottom {
